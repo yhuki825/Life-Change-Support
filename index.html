@@ -3,339 +3,335 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>合同会社Life Change Support ｜ 管理医療機器の販売・貸与 / コンサルティング</title>
-<meta name="description" content="合同会社Life Change Supportは、管理医療機器の販売・貸与とコンサルティングを通じて、暮らしが変わるその一点に足場を差し出します。東京都足立区綾瀬。">
-<meta name="theme-color" content="#071219">
+<title>合同会社Life Change Support ｜ 医療機器の販売・貸与</title>
+<meta name="description" content="合同会社Life Change Supportは、一般医療機器の販売を主軸に、管理医療機器の販売・貸与、事業コンサルティングを行っています。必要な機器を、必要な現場へ。">
+<meta name="theme-color" content="#0E6E7A">
 <meta property="og:type" content="website">
-<meta property="og:title" content="合同会社Life Change Support">
-<meta property="og:description" content="管理医療機器の販売・貸与／コンサルティング。東京都足立区綾瀬。">
+<meta property="og:title" content="合同会社Life Change Support｜医療機器の販売・貸与">
+<meta property="og:description" content="一般医療機器の販売を主軸に、管理医療機器の販売・貸与、コンサルティングを行っています。">
 <meta property="og:locale" content="ja_JP">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;600;800&family=Zen+Kaku+Gothic+New:wght@300;400;500;700&family=IBM+Plex+Mono:wght@300;400;500&family=Cormorant+Garamond:ital,wght@0,300;0,500;1,300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;600;900&family=Zen+Kaku+Gothic+New:wght@300;400;500;700&family=IBM+Plex+Mono:wght@400;500&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
 
 <!--
   ============================================================
-  合同会社Life Change Support ブランドサイト
+  合同会社Life Change Support ブランドサイト（改訂版）
   単一ファイル（HTML/CSS/JS インライン）／ビルド不要
-  Cloudflare Pages へそのままドラッグ&ドロップで公開できます。
+  Cloudflare Pages へドラッグ&ドロップでそのまま公開できます。
+
+  ▼ 今回の改訂方針
+  ・「一般医療機器の販売」を主軸として最上部で明示
+  ・所在地／地名に関する記述をサイト全体から削除（移転予定のため）
+  ・何を扱う会社かが一目で伝わる構成（取扱品目・供給の流れを前面に）
+  ・求職者が読む前提で「働く場所としての姿」を追加
+
+  ▼ 確認事項の記載方法について
+  未確定の情報・法令上の注意点は、すべてHTMLコメントとして各該当箇所に
+  記述しています（画面上には一切表示されません）。ソース内を「要確認」で
+  検索すると、対応が必要な箇所を一覧できます。
 
   ▼ 公開前に必ずご確認ください（法令・事実確認）
-  1) 薬機法：管理医療機器の販売業・貸与業は、営業所ごとに
-     「管理医療機器販売業・貸与業 届出」が必要です（高度管理医療機器等を
-     取り扱う場合は「許可」）。届出/許可番号・営業所管理者は
-     本文中の「要確認」表記部分に、正式な内容へ差し替えてください。
-  2) 薬機法の広告規制：医療機器の効能効果・安全性について、
-     承認範囲を超える表現、最大級表現、体験談による効果訴求は行えません。
-     本サイトの文言は一般的な事業紹介の範囲に留めています。
-  3) 設立年月日・資本金・従業員数・営業時間・取扱品目は仮置きです。
-     会社概要セクションの「要確認」を正しい情報に置き換えてください。
-  4) 代表メッセージは草案です。代表者ご本人の確認・加筆をお願いします。
-  5) 画像は Unsplash のフリー素材を参照しています（読込失敗時は
-     picsum.photos にフォールバック）。公開時は自社撮影素材への
-     差し替えを推奨します。
+  1) 医療機器の区分と手続
+     ・一般医療機器（クラスⅠ）の販売：原則として届出・許可は不要
+     ・管理医療機器（クラスⅡ）の販売・貸与：営業所ごとの「届出」が必要
+     ・高度管理医療機器等（クラスⅢ・Ⅳ）：営業所ごとの「許可」が必要
+     実際の取扱区分と、届出（許可）番号・営業所管理者を確認のうえ、
+     機器の区分セクション内のコメントに従って記載を追加してください。
+  2) 薬機法の広告規制
+     効能効果・安全性について承認範囲を超える表現、最大級表現、
+     他社との優劣の断定、体験談による効果訴求は掲載できません。
+     本サイトは事業紹介の範囲に留めています。
+  3) 取扱品目（DEVICES セクション）は例示です。
+     実際に取り扱う品目に差し替えてください。
+  4) 会社概要の所在地・設立・資本金・許認可等は、未確定のため
+     行ごとコメントアウトしています。確定した項目から順に、
+     会社概要セクション内のコメントを外して有効化してください。
+  5) 採用に関する募集要項・応募窓口は本サイトに設けていません。
+     求人媒体や採用ページへのリンクを追加する場合は
+     PEOPLE セクション末尾のコメント位置に設置してください。
+  6) 画像は Unsplash のフリー素材を参照（読込失敗時 picsum.photos に
+     フォールバック）。公開時は自社撮影素材への差し替えを推奨します。
   ============================================================
 -->
 
 <style>
 :root{
-  --ink:#071219;
-  --ink-2:#0b1d27;
-  --ink-3:#102a36;
-  --paper:#efede6;
-  --paper-2:#e3e0d6;
-  --fg:#e9eef1;
-  --fg-dim:#9db0bb;
-  --accent:#4fc1b0;      /* 浅葱：瀬の水面 */
-  --accent-2:#c79a54;    /* 錆金：綾の縦糸 */
-  --line:rgba(233,238,241,.14);
-  --line-dark:rgba(7,18,25,.14);
-  --serif:"Shippori Mincho B1",serif;
+  --paper:#f4f5f3;
+  --paper-2:#eaece8;
+  --ink:#121a1f;
+  --ink-2:#1b262d;
+  --fg:#121a1f;
+  --fg-dim:#5b6b73;
+  --fg-inv:#eef2f1;
+  --fg-inv-dim:#9db2b6;
+  --teal:#0e6e7a;
+  --teal-2:#14929f;
+  --gold:#d6a32e;
+  --line:rgba(18,26,31,.14);
+  --line-inv:rgba(238,242,241,.16);
+  --mincho:"Zen Old Mincho",serif;
   --sans:"Zen Kaku Gothic New",sans-serif;
   --mono:"IBM Plex Mono",monospace;
-  --latin:"Cormorant Garamond",serif;
+  --latin:"Archivo",sans-serif;
   --pad:clamp(20px,5vw,72px);
-  --maxw:1180px;
+  --maxw:1200px;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 body{
-  margin:0;background:var(--ink);color:var(--fg);
-  font-family:var(--sans);font-weight:300;line-height:1.95;
-  letter-spacing:.05em;overflow-x:hidden;
-  -webkit-font-smoothing:antialiased;
+  margin:0;background:var(--paper);color:var(--fg);
+  font-family:var(--sans);font-weight:300;line-height:1.95;letter-spacing:.045em;
+  overflow-x:hidden;-webkit-font-smoothing:antialiased;
 }
 img{max-width:100%;display:block}
 a{color:inherit;text-decoration:none}
-:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
-
-.skip{position:absolute;left:-9999px;top:0;z-index:999;background:var(--accent);color:#04222c;padding:10px 18px}
+:focus-visible{outline:2px solid var(--teal);outline-offset:3px}
+.skip{position:absolute;left:-9999px;top:0;z-index:999;background:var(--teal);color:#fff;padding:10px 18px}
 .skip:focus{left:8px;top:8px}
 
-/* ---------- 共通 ---------- */
 .wrap{max-width:var(--maxw);margin:0 auto;padding-inline:var(--pad)}
+section{position:relative;padding:clamp(80px,11vw,140px) 0}
 .eyebrow{
-  font-family:var(--mono);font-size:11px;letter-spacing:.34em;
-  color:var(--accent);text-transform:uppercase;margin:0 0 22px;
-  display:flex;align-items:center;gap:14px;
+  font-family:var(--mono);font-size:11px;letter-spacing:.3em;color:var(--teal);
+  margin:0 0 20px;display:flex;align-items:center;gap:14px;text-transform:uppercase;
 }
-.eyebrow::after{content:"";flex:1;height:1px;background:var(--line);max-width:180px}
+.eyebrow::after{content:"";flex:1;height:1px;background:var(--line);max-width:160px}
 .sec-title{
-  font-family:var(--serif);font-weight:600;
-  font-size:clamp(26px,4.4vw,44px);line-height:1.55;
-  letter-spacing:.06em;margin:0 0 28px;
+  font-family:var(--mincho);font-weight:600;font-size:clamp(25px,4.2vw,42px);
+  line-height:1.6;letter-spacing:.05em;margin:0 0 26px;
 }
-.lede{max-width:64ch;color:var(--fg-dim);font-size:clamp(14px,1.6vw,16px)}
-section{position:relative;padding:clamp(84px,12vw,150px) 0}
+.lede{max-width:66ch;color:var(--fg-dim);font-size:clamp(14px,1.6vw,16px);margin:0}
 
-/* ---------- スクロール・レール（signature 補助） ---------- */
-.rail{
-  position:fixed;left:26px;top:0;height:100vh;width:1px;
-  background:var(--line);z-index:40;display:none;
+/* ---------- 目盛レール（ものさし） ---------- */
+.rail{position:fixed;left:24px;top:0;height:100vh;width:34px;z-index:40;display:none;pointer-events:none}
+.rail__line{position:absolute;left:0;top:0;width:1px;height:100%;background:var(--line)}
+.rail__fill{position:absolute;left:0;top:0;width:1px;height:0;background:var(--teal)}
+.rail__tick{position:absolute;left:0;height:1px;background:var(--line)}
+.rail__label{
+  position:absolute;left:12px;transform:translateY(-50%);
+  font-family:var(--mono);font-size:9px;letter-spacing:.16em;color:var(--fg-dim);
+  opacity:.5;transition:.35s;white-space:nowrap;
 }
-.rail__fill{position:absolute;top:0;left:0;width:1px;height:0;background:linear-gradient(var(--accent),var(--accent-2))}
-.rail__dots{position:absolute;inset:0}
-.rail__dot{
-  position:absolute;left:-3.5px;width:8px;height:8px;border-radius:50%;
-  background:var(--ink);border:1px solid var(--line);transition:.4s;
-}
-.rail__dot[data-on="1"]{background:var(--accent);border-color:var(--accent);box-shadow:0 0 0 4px rgba(79,193,176,.14)}
-@media(min-width:1180px){.rail{display:block}}
+.rail__label[data-on="1"]{opacity:1;color:var(--teal)}
+@media(min-width:1240px){.rail{display:block}}
 
 /* ---------- ヘッダー ---------- */
 .nav{
-  position:fixed;inset:0 0 auto;z-index:60;
-  display:flex;align-items:center;justify-content:space-between;
-  padding:18px var(--pad);
-  background:rgba(7,18,25,0);backdrop-filter:blur(0px);
-  transition:background .45s,backdrop-filter .45s,padding .45s,border-color .45s;
-  border-bottom:1px solid transparent;
+  position:fixed;inset:0 0 auto;z-index:60;display:flex;align-items:center;
+  justify-content:space-between;gap:20px;padding:16px var(--pad);
+  background:rgba(244,245,243,0);border-bottom:1px solid transparent;
+  transition:background .4s,backdrop-filter .4s,border-color .4s,padding .4s;
 }
-.nav[data-solid="1"]{background:rgba(7,18,25,.86);backdrop-filter:blur(14px);border-bottom-color:var(--line);padding-block:12px}
-.brand{display:flex;align-items:baseline;gap:12px;line-height:1}
-.brand__mark{
-  font-family:var(--latin);font-size:23px;letter-spacing:.14em;color:var(--fg);
-}
-.brand__mark i{font-style:normal;color:var(--accent)}
-.brand__jp{font-family:var(--mono);font-size:10px;letter-spacing:.28em;color:var(--fg-dim)}
-.nav__list{display:flex;gap:30px;list-style:none;margin:0;padding:0}
-.nav__list a{font-family:var(--mono);font-size:11.5px;letter-spacing:.2em;color:var(--fg-dim);transition:color .3s;position:relative}
-.nav__list a::after{content:"";position:absolute;left:0;bottom:-6px;width:0;height:1px;background:var(--accent);transition:width .35s}
+.nav[data-solid="1"]{background:rgba(244,245,243,.92);backdrop-filter:blur(14px);border-bottom-color:var(--line);padding-block:11px}
+.brand{display:flex;flex-direction:column;line-height:1.25}
+.brand__mark{font-family:var(--latin);font-weight:600;font-size:17px;letter-spacing:.02em}
+.brand__mark i{font-style:normal;color:var(--teal)}
+.brand__sub{font-family:var(--mono);font-size:9.5px;letter-spacing:.2em;color:var(--fg-dim)}
+.nav__list{display:flex;gap:26px;list-style:none;margin:0;padding:0}
+.nav__list a{font-family:var(--mono);font-size:11px;letter-spacing:.16em;color:var(--fg-dim);position:relative;transition:color .3s}
+.nav__list a::after{content:"";position:absolute;left:0;bottom:-6px;width:0;height:1px;background:var(--teal);transition:width .35s}
 .nav__list a:hover{color:var(--fg)}
 .nav__list a:hover::after{width:100%}
-.burger{display:none;width:44px;height:44px;background:none;border:1px solid var(--line);border-radius:2px;cursor:pointer;position:relative}
-.burger span{position:absolute;left:12px;width:20px;height:1px;background:var(--fg);transition:.35s}
-.burger span:nth-child(1){top:18px}
-.burger span:nth-child(2){top:25px}
-.burger[aria-expanded="true"] span:nth-child(1){top:21.5px;transform:rotate(45deg)}
-.burger[aria-expanded="true"] span:nth-child(2){top:21.5px;transform:rotate(-45deg)}
-@media(max-width:900px){
+.burger{display:none;width:42px;height:42px;background:none;border:1px solid var(--line);cursor:pointer;position:relative;border-radius:2px}
+.burger span{position:absolute;left:11px;width:20px;height:1px;background:var(--fg);transition:.35s}
+.burger span:nth-child(1){top:17px}
+.burger span:nth-child(2){top:24px}
+.burger[aria-expanded="true"] span:nth-child(1){top:20.5px;transform:rotate(45deg)}
+.burger[aria-expanded="true"] span:nth-child(2){top:20.5px;transform:rotate(-45deg)}
+@media(max-width:940px){
   .burger{display:block}
   .nav__list{
-    position:fixed;inset:0;flex-direction:column;justify-content:center;align-items:center;
-    gap:26px;background:rgba(7,18,25,.97);
-    opacity:0;visibility:hidden;transition:.45s;
+    position:fixed;inset:0;flex-direction:column;justify-content:center;align-items:center;gap:24px;
+    background:rgba(244,245,243,.98);opacity:0;visibility:hidden;transition:.4s;
   }
   .nav__list[data-open="1"]{opacity:1;visibility:visible}
-  .nav__list a{font-size:14px;letter-spacing:.24em}
+  .nav__list a{font-size:14px;letter-spacing:.22em}
 }
 
 /* ---------- HERO ---------- */
-.hero{min-height:100svh;padding:0;display:flex;align-items:flex-end;overflow:hidden}
-#weave{position:absolute;inset:0;width:100%;height:100%;z-index:0}
-.hero::after{
-  content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
-  background:
-    radial-gradient(120% 80% at 78% 22%,rgba(79,193,176,.10),transparent 60%),
-    linear-gradient(180deg,rgba(7,18,25,.82) 0%,rgba(7,18,25,.28) 40%,rgba(7,18,25,.94) 100%);
+.hero{min-height:100svh;display:flex;align-items:center;padding:96px 0 0;overflow:hidden}
+.hero__grid{display:grid;gap:clamp(30px,4vw,56px);align-items:center;width:100%}
+@media(min-width:1000px){.hero__grid{grid-template-columns:1.08fr .92fr}}
+.hero__cat{
+  font-family:var(--mono);font-size:11px;letter-spacing:.26em;color:var(--teal);
+  border:1px solid var(--teal);display:inline-block;padding:5px 12px;margin:0 0 26px;
 }
-.hero__inner{position:relative;z-index:2;width:100%;max-width:var(--maxw);margin:0 auto;padding:0 var(--pad) clamp(56px,9vw,96px)}
-.hero__vertical{
-  writing-mode:vertical-rl;font-family:var(--serif);font-weight:600;
-  font-size:clamp(34px,6.6vw,74px);line-height:1.42;letter-spacing:.16em;
-  margin:0 0 34px;text-shadow:0 2px 30px rgba(7,18,25,.7);
-  max-height:min(58vh,470px);
+.hero__h{
+  font-family:var(--mincho);font-weight:900;
+  font-size:clamp(32px,6.1vw,58px);line-height:1.34;letter-spacing:.02em;margin:0 0 26px;
 }
-.hero__vertical em{font-style:normal;color:var(--accent-2)}
-.hero__sub{max-width:38ch;color:#c7d5dc;font-size:clamp(13.5px,1.7vw,16px);margin:0 0 30px}
-.hero__latin{
-  font-family:var(--latin);font-style:italic;font-size:clamp(15px,2.2vw,22px);
-  letter-spacing:.1em;color:var(--fg-dim);margin:0;
+.hero__h em{font-style:normal;color:var(--teal)}
+.hero__h .u{background:linear-gradient(transparent 68%,rgba(214,163,46,.45) 68%)}
+.hero__p{max-width:44ch;font-size:clamp(14px,1.7vw,16.5px);color:#3e4d55;margin:0 0 32px}
+.ticker{
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  padding:16px 0;display:flex;align-items:center;gap:16px;max-width:520px;
 }
-.hero__meta{
-  position:absolute;right:var(--pad);bottom:clamp(56px,9vw,96px);z-index:2;
-  font-family:var(--mono);font-size:10.5px;letter-spacing:.24em;color:var(--fg-dim);
-  writing-mode:vertical-rl;line-height:2.4;
+.ticker__k{font-family:var(--mono);font-size:10px;letter-spacing:.2em;color:var(--fg-dim);white-space:nowrap}
+.ticker__v{
+  font-family:var(--mincho);font-weight:600;font-size:clamp(16px,2.4vw,21px);
+  letter-spacing:.06em;color:var(--ink);transition:opacity .45s,transform .45s;
 }
-@media(max-width:760px){
-  .hero__vertical{writing-mode:horizontal-tb;max-height:none;letter-spacing:.1em}
-  .hero__meta{display:none}
+.ticker__v[data-out="1"]{opacity:0;transform:translateY(-8px)}
+.hero__figure{position:relative;margin:0}
+.hero__figure img{width:100%;aspect-ratio:4/5;object-fit:cover;filter:saturate(.55) contrast(1.05)}
+.hero__figure::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(160deg,rgba(14,110,122,.38),rgba(18,26,31,.18) 55%,rgba(214,163,46,.16));
+  mix-blend-mode:multiply;
 }
-.scrollcue{
-  position:absolute;left:50%;bottom:22px;z-index:3;transform:translateX(-50%);
-  font-family:var(--mono);font-size:9.5px;letter-spacing:.3em;color:var(--fg-dim);
-  display:flex;flex-direction:column;align-items:center;gap:10px;
+.hero__tag{
+  position:absolute;left:0;bottom:0;z-index:2;background:var(--paper);
+  padding:14px 20px;font-family:var(--mono);font-size:10px;letter-spacing:.2em;color:var(--fg-dim);
+  border-top:1px solid var(--line);border-right:1px solid var(--line);
 }
-.scrollcue::after{content:"";width:1px;height:46px;background:linear-gradient(var(--accent),transparent);animation:cue 2.6s ease-in-out infinite}
-@keyframes cue{0%,100%{opacity:.25;transform:scaleY(.5)}50%{opacity:1;transform:scaleY(1)}}
-
-/* ---------- 概念（Concept） ---------- */
-.concept{background:var(--ink)}
-.concept__grid{display:grid;grid-template-columns:1fr;gap:clamp(34px,5vw,72px)}
-@media(min-width:900px){.concept__grid{grid-template-columns:1.05fr .95fr;align-items:center}}
-.kanji-pair{display:flex;gap:22px;margin:0 0 34px}
-.kanji{
-  border:1px solid var(--line);padding:20px 16px 18px;flex:1;text-align:center;
-  background:linear-gradient(180deg,rgba(255,255,255,.03),transparent);
-}
-.kanji b{display:block;font-family:var(--serif);font-size:clamp(38px,7vw,58px);font-weight:800;line-height:1;color:var(--accent-2)}
-.kanji span{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:var(--fg-dim);margin-top:14px}
-.kanji p{margin:10px 0 0;font-size:12.5px;line-height:1.9;color:var(--fg-dim)}
-.concept p{font-size:clamp(14px,1.7vw,16.5px);color:#c2d0d8}
-.concept .strong{color:var(--fg);font-family:var(--serif);font-size:clamp(16px,2.2vw,21px);line-height:2.1;letter-spacing:.08em}
-.figure{position:relative;border:1px solid var(--line)}
-.figure img{filter:saturate(.72) contrast(1.04) brightness(.86);aspect-ratio:4/5;object-fit:cover;width:100%}
-.figure figcaption{
-  position:absolute;left:0;bottom:0;right:0;padding:14px 16px;
-  background:linear-gradient(transparent,rgba(7,18,25,.92));
-  font-family:var(--mono);font-size:10px;letter-spacing:.2em;color:var(--fg-dim);
+@media(max-width:999px){
+  .hero{min-height:auto;padding:120px 0 20px}
+  .hero__figure img{aspect-ratio:16/11}
 }
 
-/* ---------- 事業（Business） ---------- */
-.business{background:var(--ink-2)}
-.biz{display:grid;gap:1px;background:var(--line);border:1px solid var(--line);margin-top:56px}
-@media(min-width:900px){.biz{grid-template-columns:1fr 1fr}}
-.biz__item{background:var(--ink-2);padding:clamp(28px,4vw,52px);position:relative;overflow:hidden}
-.biz__item::before{
-  content:"";position:absolute;left:0;top:0;width:100%;height:2px;
-  background:linear-gradient(90deg,var(--accent),transparent);transform:scaleX(0);transform-origin:left;transition:transform .7s cubic-bezier(.2,.7,.2,1);
-}
-.biz__item.in::before{transform:scaleX(1)}
-.biz__ph{width:100%;aspect-ratio:16/10;object-fit:cover;filter:saturate(.7) brightness(.82);margin-bottom:28px;border:1px solid var(--line)}
-.biz__label{font-family:var(--mono);font-size:10.5px;letter-spacing:.26em;color:var(--accent);margin:0 0 12px}
-.biz__h{font-family:var(--serif);font-size:clamp(20px,2.7vw,27px);font-weight:600;letter-spacing:.08em;margin:0 0 18px;line-height:1.6}
-.biz__t{margin:0 0 24px;color:var(--fg-dim);font-size:14.5px}
-.biz__list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
-.biz__list li{padding:13px 0 13px 20px;border-bottom:1px solid var(--line);font-size:13.5px;position:relative;color:#c9d6dd}
-.biz__list li::before{content:"";position:absolute;left:0;top:23px;width:8px;height:1px;background:var(--accent-2)}
+/* ---------- 事業内容 ---------- */
+.doing{background:var(--paper-2)}
+.cards{display:grid;gap:1px;background:var(--line);border:1px solid var(--line);margin-top:52px}
+@media(min-width:960px){.cards{grid-template-columns:1.2fr 1fr 1fr}}
+.card{background:var(--paper-2);padding:clamp(26px,3.4vw,40px);position:relative}
+.card--main{background:var(--ink);color:var(--fg-inv)}
+.card--main .card__n{color:var(--gold)}
+.card--main .card__b{color:var(--fg-inv-dim)}
+.card--main .card__list{border-top-color:var(--line-inv)}
+.card--main .card__list li{color:#c3d3d6;border-bottom-color:var(--line-inv)}
+.card__n{font-family:var(--mono);font-size:10.5px;letter-spacing:.24em;color:var(--teal);margin:0 0 14px;display:flex;align-items:center;gap:10px}
+.card__n b{font-family:var(--latin);font-weight:600;font-size:13px;letter-spacing:0}
+.card__h{font-family:var(--mincho);font-weight:600;font-size:clamp(19px,2.5vw,25px);letter-spacing:.05em;line-height:1.6;margin:0 0 16px}
+.card__b{margin:0 0 22px;font-size:14px;color:var(--fg-dim);line-height:2.05}
+.card__list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.card__list li{padding:11px 0 11px 18px;border-bottom:1px solid var(--line);font-size:13px;position:relative;color:#3f4f57}
+.card__list li::before{content:"";position:absolute;left:0;top:21px;width:7px;height:1px;background:var(--gold)}
 
-/* ---------- 取扱区分（Devices） ---------- */
-.devices{background:var(--paper);color:#0d1f28}
-.devices .eyebrow{color:#1e6c62}
-.devices .eyebrow::after{background:var(--line-dark)}
-.devices .lede{color:#4a5f6a}
-.class-grid{display:grid;gap:20px;margin-top:52px}
-@media(min-width:800px){.class-grid{grid-template-columns:repeat(3,1fr)}}
-.class-card{
-  border:1px solid var(--line-dark);padding:26px 24px 28px;background:rgba(255,255,255,.5);
-  transition:transform .6s cubic-bezier(.2,.7,.2,1),box-shadow .6s;
-}
-.class-card:hover{transform:translateY(-5px);box-shadow:0 18px 40px -28px rgba(13,31,40,.55)}
-.class-card__n{font-family:var(--mono);font-size:10px;letter-spacing:.24em;color:#1e6c62;margin:0 0 16px}
-.class-card__h{font-family:var(--serif);font-size:19px;font-weight:600;margin:0 0 12px;letter-spacing:.06em}
-.class-card__b{margin:0;font-size:13.5px;line-height:2;color:#42555f}
-.class-card--focus{background:#0b1d27;color:var(--fg);border-color:#0b1d27}
-.class-card--focus .class-card__n{color:var(--accent)}
-.class-card--focus .class-card__b{color:#a9bcc5}
-.notice{
-  margin-top:36px;border:1px solid var(--line-dark);border-left:3px solid var(--accent-2);
-  padding:22px 24px;background:rgba(255,255,255,.55);font-size:13px;line-height:2;color:#42555f;
-}
-.badge{
-  display:inline-block;font-family:var(--mono);font-size:10px;letter-spacing:.16em;
-  background:#c79a54;color:#2a1c06;padding:2px 8px;border-radius:2px;margin-right:8px;
-  vertical-align:2px;font-weight:500;
-}
+/* ---------- 取扱品目 ---------- */
+.devices{background:var(--paper)}
+.grid-items{display:grid;gap:14px;margin-top:48px}
+@media(min-width:640px){.grid-items{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:980px){.grid-items{grid-template-columns:repeat(4,1fr)}}
+.item{border:1px solid var(--line);padding:22px 20px 24px;background:#fff;transition:transform .5s cubic-bezier(.2,.7,.2,1),border-color .5s}
+.item:hover{transform:translateY(-4px);border-color:var(--teal)}
+.item__ic{width:34px;height:34px;margin-bottom:16px;color:var(--teal)}
+.item__h{font-family:var(--mincho);font-weight:600;font-size:16px;letter-spacing:.05em;margin:0 0 8px}
+.item__b{margin:0;font-size:12.5px;line-height:1.95;color:var(--fg-dim)}
+/* ---------- 供給の道すじ ---------- */
+.flow{background:var(--ink);color:var(--fg-inv)}
+.flow .eyebrow{color:var(--teal-2)}
+.flow .eyebrow::after{background:var(--line-inv)}
+.flow .lede{color:var(--fg-inv-dim)}
+.flowsvg{width:100%;height:auto;margin:56px 0 8px;overflow:visible}
+.flowsvg .base{stroke:rgba(238,242,241,.16);stroke-width:1}
+.flowsvg .prog{stroke:var(--teal-2);stroke-width:2;fill:none;stroke-linecap:round}
+.flowsvg .st{fill:var(--ink);stroke:rgba(238,242,241,.3);stroke-width:1;transition:.5s}
+.flowsvg .st.on{fill:var(--teal-2);stroke:var(--teal-2)}
+.flowsvg .glyph{fill:none;stroke:var(--fg-inv-dim);stroke-width:1.3;stroke-linecap:round;stroke-linejoin:round;transition:.5s}
+.flowsvg .glyph.g-on{stroke:#04262a}
+.flowsvg .num{font-family:"Archivo",sans-serif;font-weight:600;font-size:12px;fill:var(--fg-inv-dim)}
+.flowsvg .lb{font-family:"Zen Old Mincho",serif;font-size:15px;fill:#dfe9e8;letter-spacing:.06em}
+.flow__notes{display:grid;gap:1px;background:var(--line-inv);border:1px solid var(--line-inv);margin-top:36px}
+@media(min-width:900px){.flow__notes{grid-template-columns:repeat(5,1fr)}}
+.fn{background:var(--ink);padding:22px 18px 26px}
+.fn h3{font-family:var(--mincho);font-weight:600;font-size:15px;letter-spacing:.06em;margin:0 0 10px;color:#eef2f1}
+.fn p{margin:0;font-size:12.5px;line-height:2;color:var(--fg-inv-dim)}
 
-/* ---------- 姿勢（Approach / 綾なす） ---------- */
-.approach{background:var(--ink)}
-.braid{width:100%;height:auto;margin:56px 0 12px;overflow:visible}
-.braid .thread{fill:none;stroke-width:1.6;stroke-linecap:round}
-.braid .t1{stroke:var(--accent)}
-.braid .t2{stroke:var(--accent-2)}
-.braid .node{fill:var(--ink);stroke:var(--line);stroke-width:1}
-.braid .node-on{fill:var(--accent)}
-.braid text{font-family:var(--mono);font-size:11px;letter-spacing:.18em;fill:var(--fg-dim)}
-.steps{display:grid;gap:1px;background:var(--line);border:1px solid var(--line)}
-@media(min-width:860px){.steps{grid-template-columns:repeat(3,1fr)}}
-.step{background:var(--ink);padding:30px 26px 34px}
-.step__n{font-family:var(--latin);font-size:34px;font-style:italic;color:var(--accent-2);line-height:1;margin:0 0 14px}
-.step__h{font-family:var(--serif);font-size:18px;font-weight:600;letter-spacing:.1em;margin:0 0 12px}
-.step__b{margin:0;font-size:13.5px;color:var(--fg-dim);line-height:2}
+/* ---------- 区分 ---------- */
+.cls{background:var(--paper-2)}
+.cls-grid{display:grid;gap:20px;margin-top:48px}
+@media(min-width:860px){.cls-grid{grid-template-columns:repeat(3,1fr)}}
+.cls-card{border:1px solid var(--line);background:#fff;padding:26px 24px 28px}
+.cls-card--focus{border-color:var(--teal);box-shadow:inset 0 0 0 1px var(--teal)}
+.cls-card__n{font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:var(--teal);margin:0 0 14px}
+.cls-card__h{font-family:var(--mincho);font-weight:600;font-size:18px;margin:0 0 12px;letter-spacing:.05em}
+.cls-card__b{margin:0;font-size:13px;line-height:2;color:var(--fg-dim)}
+
+/* ---------- 働く場所として ---------- */
+.people{background:var(--paper)}
+.people__grid{display:grid;gap:clamp(30px,4vw,56px);align-items:center}
+@media(min-width:960px){.people__grid{grid-template-columns:.95fr 1.05fr}}
+.people__fig{margin:0}
+.people__fig img{width:100%;aspect-ratio:5/4;object-fit:cover;filter:saturate(.6) contrast(1.03)}
+.plist{list-style:none;margin:30px 0 0;padding:0;display:grid;gap:1px;background:var(--line);border:1px solid var(--line)}
+.plist li{background:#fff;padding:18px 20px;font-size:13.5px;color:#3f4f57;line-height:2}
+.plist b{display:block;font-family:var(--mincho);font-weight:600;font-size:15px;letter-spacing:.05em;color:var(--ink);margin-bottom:6px}
 
 /* ---------- 代表メッセージ ---------- */
-.message{background:var(--ink-3);overflow:hidden}
-.message__grid{display:grid;gap:clamp(30px,5vw,60px);align-items:center}
-@media(min-width:960px){.message__grid{grid-template-columns:.9fr 1.1fr}}
+.message{background:var(--ink-2);color:var(--fg-inv)}
+.message .eyebrow{color:var(--teal-2)}
+.message .eyebrow::after{background:var(--line-inv)}
+.msg__grid{display:grid;gap:clamp(28px,4vw,56px);align-items:center}
+@media(min-width:960px){.msg__grid{grid-template-columns:.85fr 1.15fr}}
 .msg-vert{
-  writing-mode:vertical-rl;font-family:var(--serif);font-weight:400;
-  font-size:clamp(15px,1.9vw,17px);line-height:2.5;letter-spacing:.14em;
-  max-height:520px;color:#dbe6eb;margin:0;
+  writing-mode:vertical-rl;font-family:var(--mincho);font-weight:400;
+  font-size:clamp(15px,1.85vw,17px);line-height:2.5;letter-spacing:.13em;
+  max-height:500px;margin:0;color:#e2ecea;
 }
 .msg-vert strong{font-weight:600;color:#fff}
 @media(max-width:959px){.msg-vert{writing-mode:horizontal-tb;max-height:none;line-height:2.2}}
-.msg-side{border-left:1px solid var(--line);padding-left:clamp(20px,3vw,40px)}
-@media(max-width:959px){.msg-side{border-left:none;border-top:1px solid var(--line);padding:28px 0 0}}
-.sign{font-family:var(--serif);font-size:22px;letter-spacing:.16em;margin:26px 0 0}
-.sign small{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.24em;color:var(--fg-dim);margin-bottom:8px}
+.msg-side{border-left:1px solid var(--line-inv);padding-left:clamp(20px,3vw,40px)}
+@media(max-width:959px){.msg-side{border-left:none;border-top:1px solid var(--line-inv);padding:26px 0 0}}
+.msg-side p{color:var(--fg-inv-dim);font-size:14px;margin:0}
+.sign{font-family:var(--mincho);font-size:21px;letter-spacing:.14em;margin:24px 0 0;color:#fff}
+.sign small{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:var(--fg-inv-dim);margin-bottom:8px}
 
 /* ---------- 会社概要 ---------- */
-.company{background:var(--ink-2)}
-.co-grid{display:grid;gap:clamp(32px,5vw,64px)}
-@media(min-width:980px){.co-grid{grid-template-columns:1.15fr .85fr}}
-.table{width:100%;border-collapse:collapse;border-top:1px solid var(--line)}
-.table th,.table td{text-align:left;padding:17px 4px;border-bottom:1px solid var(--line);font-weight:400;vertical-align:top;font-size:13.5px}
-.table th{width:34%;font-family:var(--mono);font-size:11px;letter-spacing:.18em;color:var(--accent);white-space:nowrap}
-.table td{color:#cad7de}
+.company{background:var(--paper-2)}
+.table{width:100%;border-collapse:collapse;border-top:1px solid var(--line);margin-top:44px}
+.table th,.table td{text-align:left;padding:16px 4px;border-bottom:1px solid var(--line);font-weight:400;vertical-align:top;font-size:13.5px}
+.table th{width:30%;font-family:var(--mono);font-size:11px;letter-spacing:.16em;color:var(--teal);white-space:nowrap}
+.table td{color:#3f4f57}
 .table td small{display:block;color:var(--fg-dim);font-size:11.5px;margin-top:6px;line-height:1.8}
-.co-figure{border:1px solid var(--line)}
-.co-figure img{aspect-ratio:3/4;object-fit:cover;filter:saturate(.7) brightness(.84);width:100%}
 
 /* ---------- フッター ---------- */
-.foot{background:var(--ink);border-top:1px solid var(--line);padding:56px 0 40px}
+.foot{background:var(--ink);color:var(--fg-inv);padding:52px 0 40px}
 .foot__in{display:flex;flex-wrap:wrap;gap:26px;justify-content:space-between;align-items:flex-end}
-.foot__copy{font-family:var(--mono);font-size:10.5px;letter-spacing:.18em;color:var(--fg-dim);margin:0}
-.foot__addr{font-size:12.5px;color:var(--fg-dim);margin:14px 0 0;line-height:2}
-.foot__nav{display:flex;gap:22px;flex-wrap:wrap;list-style:none;margin:0;padding:0}
-.foot__nav a{font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;color:var(--fg-dim)}
-.foot__nav a:hover{color:var(--accent)}
+.foot__b{font-family:var(--latin);font-weight:600;font-size:19px;letter-spacing:.02em;margin:0}
+.foot__b i{font-style:normal;color:var(--teal-2)}
+.foot__d{font-size:12.5px;color:var(--fg-inv-dim);margin:12px 0 0;line-height:2}
+.foot__nav{display:flex;gap:20px;flex-wrap:wrap;list-style:none;margin:0;padding:0}
+.foot__nav a{font-family:var(--mono);font-size:10.5px;letter-spacing:.18em;color:var(--fg-inv-dim)}
+.foot__nav a:hover{color:var(--teal-2)}
+.foot__c{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;color:var(--fg-inv-dim);margin:20px 0 0}
 
 /* ---------- リビール ---------- */
-.rv{opacity:0;transform:translateY(26px);transition:opacity .95s cubic-bezier(.2,.7,.2,1),transform .95s cubic-bezier(.2,.7,.2,1)}
+.rv{opacity:0;transform:translateY(24px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1)}
 .rv.in{opacity:1;transform:none}
-.rv[data-d="1"]{transition-delay:.1s}
-.rv[data-d="2"]{transition-delay:.2s}
-.rv[data-d="3"]{transition-delay:.3s}
+.rv[data-d="1"]{transition-delay:.09s}
+.rv[data-d="2"]{transition-delay:.18s}
+.rv[data-d="3"]{transition-delay:.27s}
 
 @media(prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
   .rv{opacity:1;transform:none}
-  .scrollcue::after{animation:none}
 }
 </style>
 </head>
 <body>
 <a class="skip" href="#main">本文へスキップ</a>
 
-<div class="rail" aria-hidden="true">
+<div class="rail" id="rail" aria-hidden="true">
+  <div class="rail__line"></div>
   <div class="rail__fill" id="railFill"></div>
-  <div class="rail__dots" id="railDots"></div>
 </div>
 
 <header class="nav" id="nav">
   <a class="brand" href="#hero" aria-label="合同会社Life Change Support ホーム">
     <span class="brand__mark">Life <i>Change</i> Support</span>
-    <span class="brand__jp">GODO KAISHA</span>
+    <span class="brand__sub">MEDICAL DEVICE SUPPLY</span>
   </a>
   <nav aria-label="メインナビゲーション">
     <ul class="nav__list" id="navList">
-      <li><a href="#concept">CONCEPT</a></li>
-      <li><a href="#business">BUSINESS</a></li>
-      <li><a href="#devices">DEVICES</a></li>
-      <li><a href="#approach">APPROACH</a></li>
-      <li><a href="#message">MESSAGE</a></li>
-      <li><a href="#company">COMPANY</a></li>
+      <li><a href="#doing">事業内容</a></li>
+      <li><a href="#devices">取扱品目</a></li>
+      <li><a href="#flow">供給の流れ</a></li>
+      <li><a href="#class">機器の区分</a></li>
+      <li><a href="#people">働く場所として</a></li>
+      <li><a href="#company">会社概要</a></li>
     </ul>
   </nav>
   <button class="burger" id="burger" aria-label="メニューを開く" aria-expanded="false" aria-controls="navList">
@@ -347,219 +343,319 @@ section{position:relative;padding:clamp(84px,12vw,150px) 0}
 
   <!-- ===== HERO ===== -->
   <section class="hero" id="hero">
-    <canvas id="weave" aria-hidden="true"></canvas>
-    <div class="hero__inner">
-      <h1 class="hero__vertical">瀬をわたす<br><em>綾</em>をむすぶ</h1>
-      <p class="hero__sub">暮らしが変わるその一点に、渡るための足場を。管理医療機器の供給と、事業の設計。二筋の流れを綾なして、次の岸へ。</p>
-      <p class="hero__latin">Life Change Support</p>
-    </div>
-    <p class="hero__meta">東京都足立区綾瀬　医療機器販売業・貸与業 ／ コンサルティング</p>
-    <div class="scrollcue" aria-hidden="true">SCROLL</div>
-  </section>
-
-  <!-- ===== CONCEPT ===== -->
-  <section class="concept" id="concept">
-    <div class="wrap">
-      <p class="eyebrow rv">Concept ／ 社名と土地</p>
-      <div class="concept__grid">
-        <div>
-          <h2 class="sec-title rv">変わり目に<br>足場を差し出す仕事</h2>
-          <div class="kanji-pair rv" data-d="1">
-            <div class="kanji">
-              <b>綾</b>
-              <span>AYA</span>
-              <p>幾筋もの糸が交わり、<br>模様として立ち上がること。</p>
-            </div>
-            <div class="kanji">
-              <b>瀬</b>
-              <span>SE</span>
-              <p>川のなかで最も浅く、<br>人が歩いて渡れる場所。</p>
-            </div>
-          </div>
-          <p class="strong rv" data-d="2">拠点を置く足立区綾瀬は、綾瀬川とともにある土地です。<br>「瀬」とは、流れの中でただひとつ、渡ることのできる浅い場所のこと。</p>
-          <p class="rv" data-d="3">体調が変わる。家族の暮らしが変わる。事業の局面が変わる。<br>変化そのものは止められませんが、渡り方は選べます。Life Change Support は、必要な機器を確かに届けること（供給）と、進む道筋を一緒に描くこと（設計）——この二筋を綾なして、次の岸までの足場をつくる会社です。</p>
+    <div class="wrap hero__grid">
+      <div>
+        <p class="hero__cat">一般医療機器の販売／管理医療機器の販売・貸与</p>
+        <h1 class="hero__h">医療機器を<br><span class="u">使う人のところまで</span><em>届ける</em></h1>
+        <p class="hero__p">血圧計や体温計といった日々の測定機器から、療養の場で使われる機器まで。選ぶところから、届けて、使い始めるところまでを一社で担います。</p>
+        <div class="ticker">
+          <span class="ticker__k">TODAY&nbsp;WE&nbsp;DELIVER</span>
+          <span class="ticker__v" id="tick">血圧計</span>
         </div>
-        <figure class="figure rv" data-d="2">
-          <img src="https://images.unsplash.com/photo-1439066615861-d1af74d74000?auto=format&fit=crop&w=1000&q=80" alt="朝もやのなかを流れる川面" loading="lazy" onerror="this.onerror=null;this.src='https://picsum.photos/seed/lcs-river/1000/1250'">
-          <figcaption>綾瀬川 ／ 流れのなかの、渡れる浅瀬</figcaption>
-        </figure>
       </div>
+      <figure class="hero__figure">
+        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1100&q=80" alt="整えられた医療機器と、それが使われる現場" onerror="this.onerror=null;this.src='https://picsum.photos/seed/lcs-hero/1100/1375'">
+        <figcaption class="hero__tag">MEDICAL DEVICE SUPPLY &amp; RENTAL</figcaption>
+      </figure>
     </div>
   </section>
 
-  <!-- ===== BUSINESS ===== -->
-  <section class="business" id="business">
+  <!-- ===== 事業内容 ===== -->
+  <section class="doing" id="doing">
     <div class="wrap">
-      <p class="eyebrow rv">Business ／ 二筋の事業</p>
-      <h2 class="sec-title rv">ものを届ける力と<br>道筋を描く力</h2>
-      <p class="lede rv" data-d="1">現場で使われる機器を適正に供給する実務と、事業の判断を支える伴走。どちらか一方では、変化は渡りきれません。当社は二つを同じ手で担います。</p>
+      <p class="eyebrow rv">Business ／ 事業内容</p>
+      <h2 class="sec-title rv">やっていることは、<br>三つだけです。</h2>
+      <p class="lede rv" data-d="1">主軸は一般医療機器の販売です。そこに、管理医療機器の販売・貸与と、現場を見てきたからこそ話せるコンサルティングが加わります。</p>
 
-      <div class="biz">
-        <article class="biz__item rv">
-          <img class="biz__ph" src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&q=80" alt="整えられた医療機器と診療の現場" loading="lazy" onerror="this.onerror=null;this.src='https://picsum.photos/seed/lcs-device/1200/750'">
-          <p class="biz__label">01 ／ SUPPLY</p>
-          <h3 class="biz__h">管理医療機器の販売・貸与</h3>
-          <p class="biz__t">医療機関・介護事業者・ご家庭など、使う場所の条件に合わせて機器を選定し、販売または貸与のかたちでお届けします。導入時の説明、貸与品の保守・回収まで、記録を残しながら運用します。</p>
-          <ul class="biz__list">
-            <li>使用環境のヒアリングと機種選定</li>
-            <li>販売／貸与の切り分けと見積</li>
-            <li>納品時の取扱説明・初期設定の立会い</li>
-            <li>貸与品の点検・清拭・記録管理</li>
-            <li>不具合発生時のメーカー連携と代替手配</li>
+      <div class="cards">
+        <article class="card card--main rv">
+          <p class="card__n"><b>01</b> 主軸事業</p>
+          <h3 class="card__h">一般医療機器の販売</h3>
+          <p class="card__b">クラスⅠに区分される医療機器を、医療機関・介護事業者・販売店・ご家庭など、必要とされる場所へお届けします。数量の大小にかかわらず、条件と納期を確かめたうえで手配します。</p>
+          <ul class="card__list">
+            <li>使用環境と数量のヒアリング</li>
+            <li>機種の比較・見積の作成</li>
+            <li>仕入・在庫手配と納品</li>
+            <li>継続的な補充・定期納品</li>
+            <li>取扱品目は個別にご相談のうえ決定します</li>
           </ul>
         </article>
 
-        <article class="biz__item rv" data-d="1">
-          <img class="biz__ph" src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80" alt="打ち合わせのテーブルと資料" loading="lazy" onerror="this.onerror=null;this.src='https://picsum.photos/seed/lcs-consult/1200/750'">
-          <p class="biz__label">02 ／ DESIGN</p>
-          <h3 class="biz__h">コンサルティング</h3>
-          <p class="biz__t">機器の現場で見てきたことを起点に、事業の組み立てを支援します。数字の整理から、運用ルールづくり、人が動く仕組みの設計まで。机上ではなく、実行できる形で置いていきます。</p>
-          <ul class="biz__list">
-            <li>事業計画・収支計画の整理と可視化</li>
-            <li>業務フロー／管理帳票の設計と運用定着</li>
+        <article class="card rv" data-d="1">
+          <p class="card__n"><b>02</b> 関連事業</p>
+          <h3 class="card__h">管理医療機器の<br>販売・貸与</h3>
+          <p class="card__b">クラスⅡに区分される機器の販売と貸与を行います。貸与品は点検・清拭・所在の記録を残しながら運用します。</p>
+          <ul class="card__list">
+            <li>販売／貸与の切り分け</li>
+            <li>納品時の取扱説明の立会い</li>
+            <li>貸与品の点検・記録管理</li>
+            <!-- 要確認：管理医療機器の販売・貸与を実際に行う場合、営業所ごとの届出が必要です。
+                 届出が完了している場合は、下記の形式で1行追加してください。
+                 <li>管理医療機器販売業・貸与業 届出済（届出番号：第○○○○号）</li> -->
+          </ul>
+        </article>
+
+        <article class="card rv" data-d="2">
+          <p class="card__n"><b>03</b> 関連事業</p>
+          <h3 class="card__h">コンサルティング</h3>
+          <p class="card__b">機器の現場で見てきたことを起点に、事業の組み立てを支援します。机上の資料ではなく、翌日から動かせる形で置いていきます。</p>
+          <ul class="card__list">
+            <li>事業計画・収支の整理と可視化</li>
+            <li>業務フロー／管理帳票の設計</li>
             <li>仕入・在庫・貸与資産のコスト設計</li>
-            <li>新規サービス立ち上げの実行支援</li>
-            <li>取扱範囲は個別にご相談のうえ決定します</li>
+            <!-- 要確認：コンサルティングの実際の提供範囲・実績分野に合わせて、
+                 上記3項目を差し替えてください。 -->
           </ul>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- ===== DEVICES ===== -->
+  <!-- ===== 取扱品目 ===== -->
+  <!-- 公開前確認：以下は例示です。実際の取扱品目に差し替えてください。 -->
   <section class="devices" id="devices">
     <div class="wrap">
-      <p class="eyebrow rv">Devices ／ 取り扱いの区分</p>
-      <h2 class="sec-title rv">扱うものが何であるかを<br>正確に共有します</h2>
-      <p class="lede rv" data-d="1">医療機器はリスクの程度に応じて区分され、区分ごとに販売・貸与の要件が定められています。当社が担うのは、その要件を満たしたうえでの供給です。</p>
+      <p class="eyebrow rv">Devices ／ 取扱品目</p>
+      <h2 class="sec-title rv">どんなものを<br>扱っているのか。</h2>
+      <p class="lede rv" data-d="1">下記は取扱カテゴリの例です。品目ごとに区分（一般／管理）が異なるため、実際のお取引では区分を明示したうえでご案内します。</p>
 
-      <div class="class-grid">
-        <article class="class-card rv">
-          <p class="class-card__n">CLASS Ⅰ</p>
-          <h3 class="class-card__h">一般医療機器</h3>
-          <p class="class-card__b">不具合が生じても人体へのリスクが極めて低いとされる区分。届出等の要件は管理医療機器と異なります。</p>
+      <div class="grid-items">
+        <article class="item rv">
+          <svg class="item__ic" viewBox="0 0 40 40" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="20" cy="20" r="11"/><path d="M20 13v7l5 3"/>
+          </svg>
+          <h3 class="item__h">測定・計測機器</h3>
+          <p class="item__b">血圧計、体温計、体重計、パルスオキシメータなど、日々の数値を確かめるための機器。</p>
         </article>
-        <article class="class-card class-card--focus rv" data-d="1">
-          <p class="class-card__n">CLASS Ⅱ ／ 当社の主領域</p>
-          <h3 class="class-card__h">管理医療機器</h3>
-          <p class="class-card__b">リスクが比較的低いものの、適正な管理が求められる区分。販売・貸与にあたっては営業所ごとの届出と、営業所管理者の設置が必要です。</p>
+        <article class="item rv" data-d="1">
+          <svg class="item__ic" viewBox="0 0 40 40" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M8 26h24M12 26V16a8 8 0 0 1 16 0v10"/><path d="M20 8v3"/>
+          </svg>
+          <h3 class="item__h">在宅療養向け機器</h3>
+          <p class="item__b">ご自宅での療養を支える機器類。設置場所や電源、使う方の状態に合わせて選定します。</p>
         </article>
-        <article class="class-card rv" data-d="2">
-          <p class="class-card__n">CLASS Ⅲ・Ⅳ</p>
-          <h3 class="class-card__h">高度管理医療機器</h3>
-          <p class="class-card__b">より高いリスクを伴う区分で、取り扱いには別途「許可」が必要です。当社での取扱可否は下記のとおりご確認ください。</p>
+        <article class="item rv" data-d="2">
+          <svg class="item__ic" viewBox="0 0 40 40" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="8" y="12" width="24" height="18" rx="2"/><path d="M14 12V9h12v3M8 20h24"/>
+          </svg>
+          <h3 class="item__h">衛生・処置用品</h3>
+          <p class="item__b">診療・介護の現場で日常的に消費される用品。定期的な補充までを含めて手配します。</p>
+        </article>
+        <article class="item rv" data-d="3">
+          <svg class="item__ic" viewBox="0 0 40 40" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M10 30V14l10-6 10 6v16"/><path d="M16 30v-8h8v8"/>
+          </svg>
+          <h3 class="item__h">貸与対応品目</h3>
+          <p class="item__b">購入ではなく貸与でお使いいただく機器。点検・清拭・回収まで記録を残して運用します。</p>
         </article>
       </div>
 
-      <!-- 公開前確認：許認可の記載は必ず正式な届出内容に差し替えること 
-      <div class="notice rv" data-d="1">
-        <p style="margin:0 0 10px"><span class="badge">要確認</span><strong>許認可の表示について</strong></p>
-        <p style="margin:0">管理医療機器の販売業・貸与業は、営業所ごとの届出（高度管理医療機器等を取り扱う場合は許可）が必要です。公開前に、届出（許可）番号・届出年月日・営業所名・営業所管理者氏名を正式な書類どおりに記載してください。あわせて、実際に取り扱う品目の範囲もご確認をお願いします。</p>
-      </div>
-      <div class="notice rv" data-d="2">
-        <p style="margin:0 0 10px"><span class="badge">要確認</span><strong>表現に関する注意</strong></p>
-        <p style="margin:0">医療機器の効能・効果や安全性について、承認された範囲を超える表現、他社との優劣を断定する表現、使用者の体験談による効果訴求は掲載できません。本サイトは事業内容の紹介にとどめています。個別製品の情報を追加する場合は、メーカーの承認内容に沿った記載としてください。</p>
-      </div>
-      -->
+      <!-- ================= 要確認：取扱品目の記載について =================
+           上記4カテゴリは構成の例示です。実際に取り扱う品目・メーカー・区分
+           （一般医療機器／管理医療機器／高度管理医療機器等）に差し替えてください。
+           ・カテゴリ数を増減する場合は .grid-items 内の <article class="item"> を
+             追加・削除してください（4列グリッドのため4の倍数が収まりよく並びます）。
+           ・個別製品の効能効果や、他社との優劣を示す表現は薬機法上掲載できません。
+           ================================================================ -->
     </div>
   </section>
 
-  <!-- ===== APPROACH ===== -->
-  <section class="approach" id="approach">
+  <!-- ===== 供給の流れ ===== -->
+  <section class="flow" id="flow">
     <div class="wrap">
-      <p class="eyebrow rv">Approach ／ 綾なす三工程</p>
-      <h2 class="sec-title rv">選び、届け、そのあと<br>いちばん長く一緒にいる</h2>
-      <p class="lede rv" data-d="1">供給の糸と設計の糸は、工程ごとに交差します。下の図は、その交差をそのまま図にしたものです。スクロールに合わせて、二筋が編み上がります。</p>
+      <p class="eyebrow rv">Flow ／ 供給の道すじ</p>
+      <h2 class="sec-title rv">仕入れて、選んで、届けて、<br>そのあとも見ている。</h2>
+      <p class="lede rv" data-d="1">医療機器の仕事は、届けた瞬間がゴールではありません。使われ続けるところまでが一区切りです。スクロールに合わせて、その流れをたどれます。</p>
 
-      <svg class="braid" id="braid" viewBox="0 0 1000 200" role="img" aria-label="供給と設計の二つの流れが三つの工程で交差する図">
-        <line x1="0" y1="100" x2="1000" y2="100" stroke="rgba(233,238,241,.08)" stroke-width="1"/>
-        <path class="thread t1" id="th1" d="M0,140 C120,140 130,60 250,60 C370,60 380,140 500,140 C620,140 630,60 750,60 C870,60 880,140 1000,140"/>
-        <path class="thread t2" id="th2" d="M0,60 C120,60 130,140 250,140 C370,140 380,60 500,60 C620,60 630,140 750,140 C870,140 880,60 1000,60"/>
-        <g id="nodes">
-          <circle class="node" cx="250" cy="100" r="6"/>
-          <circle class="node" cx="500" cy="100" r="6"/>
-          <circle class="node" cx="750" cy="100" r="6"/>
+      <svg class="flowsvg" id="flowsvg" viewBox="0 0 1100 200" role="img" aria-label="仕入・選定・納品・立会い・フォローという五つの工程からなる供給の流れ">
+        <line class="base" x1="70" y1="80" x2="1030" y2="80"/>
+        <path class="prog" id="flowProg" d="M70,80 L1030,80"/>
+
+        <g class="station">
+          <circle class="st" cx="70" cy="80" r="22"/>
+          <g class="glyph" transform="translate(58,69)">
+            <rect x="1" y="3" width="22" height="16" rx="1.5"/><path d="M1 9h22M9 3v16"/>
+          </g>
+          <text class="num" x="70" y="134" text-anchor="middle">01</text>
+          <text class="lb" x="70" y="160" text-anchor="middle">仕入</text>
         </g>
-        <text x="250" y="188" text-anchor="middle">SELECT</text>
-        <text x="500" y="188" text-anchor="middle">DELIVER</text>
-        <text x="750" y="188" text-anchor="middle">STAY</text>
-        <text x="8" y="46" fill="#c79a54">設計</text>
-        <text x="8" y="164" fill="#4fc1b0">供給</text>
+
+        <g class="station">
+          <circle class="st" cx="310" cy="80" r="22"/>
+          <g class="glyph" transform="translate(299,69)">
+            <circle cx="9" cy="9" r="7"/><path d="M14.5 14.5 20 20"/>
+          </g>
+          <text class="num" x="310" y="134" text-anchor="middle">02</text>
+          <text class="lb" x="310" y="160" text-anchor="middle">選定</text>
+        </g>
+
+        <g class="station">
+          <circle class="st" cx="550" cy="80" r="22"/>
+          <g class="glyph" transform="translate(538,70)">
+            <path d="M1 15V7l7-4 7 4v8"/><path d="M1 15h22"/><path d="M17 9h6v6"/>
+          </g>
+          <text class="num" x="550" y="134" text-anchor="middle">03</text>
+          <text class="lb" x="550" y="160" text-anchor="middle">納品</text>
+        </g>
+
+        <g class="station">
+          <circle class="st" cx="790" cy="80" r="22"/>
+          <g class="glyph" transform="translate(778,69)">
+            <path d="M3 19c0-5 3.5-8 9-8s9 3 9 8"/><circle cx="12" cy="6" r="4.5"/>
+          </g>
+          <text class="num" x="790" y="134" text-anchor="middle">04</text>
+          <text class="lb" x="790" y="160" text-anchor="middle">立会い</text>
+        </g>
+
+        <g class="station">
+          <circle class="st" cx="1030" cy="80" r="22"/>
+          <g class="glyph" transform="translate(1018,69)">
+            <path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 3v5h-5"/>
+          </g>
+          <text class="num" x="1030" y="134" text-anchor="middle">05</text>
+          <text class="lb" x="1030" y="160" text-anchor="middle">フォロー</text>
+        </g>
       </svg>
 
-      <div class="steps rv" data-d="1">
-        <article class="step">
-          <p class="step__n">i</p>
-          <h3 class="step__h">選ぶ</h3>
-          <p class="step__b">誰が、どこで、どのくらいの頻度で使うのか。使用環境と体制を先に聞き取り、機器の仕様と運用の両面から候補を絞ります。買うか借りるかも、ここで決めます。</p>
-        </article>
-        <article class="step">
-          <p class="step__n">ii</p>
-          <h3 class="step__h">届ける</h3>
-          <p class="step__b">納品して終わりにしません。設置・初期設定に立ち会い、取扱いの説明と記録を残します。貸与品は点検・清拭の履歴を管理し、状態がわかる状態を保ちます。</p>
-        </article>
-        <article class="step">
-          <p class="step__n">iii</p>
-          <h3 class="step__h">とどまる</h3>
-          <p class="step__b">導入後にこそ、事業の課題は形になります。運用の詰まりを一緒にほどき、必要であれば計画や体制の見直しまで踏み込む。伴走がいちばん長い工程です。</p>
-        </article>
+      <div class="flow__notes rv" data-d="1">
+        <div class="fn"><h3>仕入</h3><p>メーカー・卸から必要量を確保します。納期と在庫の見通しを先に押さえるのが、仕事の起点です。</p></div>
+        <div class="fn"><h3>選定</h3><p>誰が、どこで、どのくらいの頻度で使うのか。用途を聞いたうえで候補を絞り、見積にします。</p></div>
+        <div class="fn"><h3>納品</h3><p>数量と状態を確認して現場へ。販売か貸与かによって、残すべき記録も変わります。</p></div>
+        <div class="fn"><h3>立会い</h3><p>設置と初期設定に立ち会い、取扱いを説明します。最初の一回を一緒にやることを大事にしています。</p></div>
+        <div class="fn"><h3>フォロー</h3><p>補充、点検、不具合時の代替手配。使い続けられる状態を保つところまでが、私たちの範囲です。</p></div>
       </div>
     </div>
   </section>
 
-  <!-- ===== MESSAGE ===== -->
+  <!-- ===== 機器の区分 ===== -->
+  <section class="cls" id="class">
+    <div class="wrap">
+      <p class="eyebrow rv">Classification ／ 機器の区分</p>
+      <h2 class="sec-title rv">扱うものが何であるかを、<br>正確に共有します。</h2>
+      <p class="lede rv" data-d="1">医療機器はリスクの程度によって区分され、区分ごとに販売・貸与の手続が定められています。当社は区分を明示したうえで取引を行います。</p>
+
+      <div class="cls-grid">
+        <article class="cls-card cls-card--focus rv">
+          <p class="cls-card__n">CLASS Ⅰ ／ 主軸</p>
+          <h3 class="cls-card__h">一般医療機器</h3>
+          <p class="cls-card__b">不具合が生じた場合でも人体へのリスクが極めて低いとされる区分。販売にあたって、原則として届出・許可は必要とされていません。当社の主軸はここにあります。</p>
+        </article>
+        <article class="cls-card rv" data-d="1">
+          <p class="cls-card__n">CLASS Ⅱ</p>
+          <h3 class="cls-card__h">管理医療機器</h3>
+          <p class="cls-card__b">リスクは比較的低いものの、適正な管理が求められる区分。販売・貸与には営業所ごとの届出と、営業所管理者の設置が必要です。</p>
+        </article>
+        <article class="cls-card rv" data-d="2">
+          <p class="cls-card__n">CLASS Ⅲ・Ⅳ</p>
+          <h3 class="cls-card__h">高度管理医療機器等</h3>
+          <p class="cls-card__b">より高いリスクを伴う区分で、取り扱いには営業所ごとの許可が必要です。当社での取扱可否は下記のとおりご確認ください。</p>
+        </article>
+      </div>
+
+      <!-- ================= 要確認：許認可の表示について =================
+           管理医療機器の販売・貸与を行う場合は、営業所ごとの届出
+           （高度管理医療機器等を取り扱う場合は許可）が必要です。
+           移転後の営業所での届出番号・届出年月日・営業所管理者氏名が確定次第、
+           この位置に下記のようなブロックを追加してください。
+
+           <p class="lede rv" style="margin-top:34px">
+             管理医療機器販売業・貸与業 届出済／届出番号：第○○○○号（○○年○月○日）
+           </p>
+
+           ・一般医療機器（クラスⅠ）のみを取り扱う場合、届出・許可の記載は不要です。
+           ・実際の取扱区分と異なる記載は誤認を招くため、必ず現況に合わせてください。
+           ================================================================ -->
+    </div>
+  </section>
+
+  <!-- ===== 働く場所として ===== -->
+  <section class="people" id="people">
+    <div class="wrap">
+      <p class="eyebrow rv">People ／ 働く場所として</p>
+      <div class="people__grid">
+        <figure class="people__fig rv">
+          <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1000&q=80" alt="打ち合わせをする少人数のチーム" loading="lazy" onerror="this.onerror=null;this.src='https://picsum.photos/seed/lcs-people/1000/800'">
+        </figure>
+        <div class="rv" data-d="1">
+          <h2 class="sec-title">少人数で、<br>一件を最後まで持つ。</h2>
+          <p class="lede">分業ではなく、一人が引き合いから納品後のフォローまでを見ます。覚えることは多い代わりに、自分の仕事が誰に届いたのかが、はっきり見える環境です。</p>
+          <ul class="plist">
+            <li><b>未経験からでも始められます</b>医療機器の知識は入社後に覚える前提で、区分や手続の基本から順に身につけていきます。</li>
+            <li><b>手続を大事にする仕事です</b>記録を残す、区分を確かめる。地味な工程が、そのまま信頼になる業界です。</li>
+            <li><b>やり方を変える提案が通ります</b>組織が小さいぶん、帳票も運用も、必要なら翌週から変えられます。</li>
+          </ul>
+          <!-- 採用ページ・求人媒体へのリンクを追加する場合は、この位置に設置してください（お問い合わせフォームは設けていません） -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 代表メッセージ ===== -->
   <!-- 公開前確認：以下の代表メッセージは草案です。代表者ご本人の確認・加筆をお願いします。顔写真枠は設けていません。 -->
   <section class="message" id="message">
     <div class="wrap">
       <p class="eyebrow rv">Message ／ 代表より</p>
-      <div class="message__grid">
+      <div class="msg__grid">
         <div class="rv">
           <p class="msg-vert">
-            人の暮らしは、ある日を境に、静かに形を変えます。<br>
-            機器がひとつ届くだけで、できることが戻る場面を、私はいくつも見てきました。<br>
-            <strong>変化を止めることはできません。けれど、渡り方を用意することはできます。</strong><br>
-            必要なものを、必要なときに、確かな手続きで届けること。そして届けたあとも、事業や暮らしの組み立てを一緒に考え続けること。<br>
-            当社ができるのは、その二つだけです。二つだけを、丁寧に続けます。
+            医療機器は、あってあたりまえのものとして扱われます。<br>
+            けれど、その一台が届かなければ、測れない日があり、休めない夜があります。<br>
+            <strong>必要なものを、必要なときに、確かな手続きで届ける。</strong><br>
+            派手さのない仕事ですが、これができる会社は、現場から手放されません。<br>
+            届けたあとも、使い続けられる状態を保つところまでを、自分たちの範囲と考えています。
           </p>
         </div>
         <div class="msg-side rv" data-d="1">
-          <p class="lede" style="color:#a9bcc5">綾瀬というまちの名は、幾筋もの流れが交わる姿から生まれたと伝えられます。人と機器、事業と生活。交わる場所に立ち続けることを、この社名に置きました。</p>
+          <p>社名の Life Change Support には、暮らしが変わる場面で、必要な道具を確かに手渡す会社でありたい、という意味を置いています。</p>
           <p class="sign"><small>代表社員</small>山崎 啓三</p>
+          <!-- 要確認：左の縦書き本文および上記の一文は、いずれも草案です。
+               代表者ご本人の言葉に差し替えたうえで公開してください。 -->
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===== COMPANY ===== -->
+  <!-- ===== 会社概要 ===== -->
   <section class="company" id="company">
     <div class="wrap">
       <p class="eyebrow rv">Company ／ 会社概要</p>
-      <h2 class="sec-title rv">合同会社<br>Life Change Support</h2>
-      <div class="co-grid">
-        <div class="rv" data-d="1">
-          <table class="table">
-            <tbody>
-              <tr><th>商号</th><td>合同会社Life Change Support</td></tr>
-              <tr><th>代表社員</th><td>山崎 啓三</td></tr>
-              <tr><th>所在地</th><td>〒120-0005<br>東京都足立区綾瀬二丁目31番7号</td></tr>
-              <tr><th>事業内容</th><td>管理医療機器の販売業務及び貸与業務<br>コンサルティング事業</td></tr>
-              
-              <!--
-              <tr><th>設立</th><td>要確認 <span class="badge">要確認</span><small>登記簿の設立年月日を記載してください。</small></td></tr>
-              <tr><th>資本金</th><td>要確認 <span class="badge">要確認</span></td></tr>
-              <tr><th>許認可</th><td>管理医療機器販売業・貸与業 届出<br>届出番号：要確認 <span class="badge">要確認</span><small>営業所ごとの届出（高度管理医療機器等を取り扱う場合は許可）の正式番号・届出年月日を記載してください。</small></td></tr>
-              <tr><th>営業所管理者</th><td>要確認 <span class="badge">要確認</span></td></tr>
-              <tr><th>従業員数</th><td>要確認 <span class="badge">要確認</span></td></tr>
-              <tr><th>営業時間</th><td>要確認 <span class="badge">要確認</span></td></tr>
-              <tr><th>取引銀行</th><td>要確認 <span class="badge">要確認</span></td></tr>
-              -->
-              
-            </tbody>
-          </table>
-        </div>
-        <figure class="co-figure rv" data-d="2">
-          <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=900&q=80" alt="やわらかな朝の光がさす水辺の風景" loading="lazy" onerror="this.onerror=null;this.src='https://picsum.photos/seed/lcs-ayase/900/1200'">
-        </figure>
+      <h2 class="sec-title rv">合同会社Life Change Support</h2>
+      <div class="rv" data-d="1">
+        <table class="table">
+          <tbody>
+            <tr><th>商号</th><td>合同会社Life Change Support</td></tr>
+            <tr><th>代表社員</th><td>山崎 啓三</td></tr>
+            <tr><th>事業内容</th><td>一般医療機器の販売<br>管理医療機器の販売業務及び貸与業務<br>コンサルティング事業</td></tr>
+            <tr><th>所在地</th><td>東京都葛飾区西亀有2-20-1</td></tr>
+            <!-- ============ 要確認：以下の項目は未確定のため非表示にしています ============
+                 内容が確定した行から、コメントを外して有効化してください。
+                 空欄や「要確認」のまま公開されることを避けるため、あえて行ごと
+                 コメントアウトしています。
+
+                 ▼ 登記簿記載の設立年月日
+                 <tr><th>設立</th><td>○○○○年○月</td></tr>
+
+                 ▼ 資本金
+                 <tr><th>資本金</th><td>○○○万円</td></tr>
+
+                 ▼ 許認可（管理医療機器の販売・貸与を行う場合のみ記載。
+                    一般医療機器のみの取扱いであれば原則不要です）
+                 <tr><th>許認可</th><td>管理医療機器販売業・貸与業 届出<br>届出番号：第○○○○号（○○年○月○日）</td></tr>
+
+                 ▼ 営業所管理者（管理医療機器を取り扱う場合は設置が必要）
+                 <tr><th>営業所管理者</th><td>○○ ○○</td></tr>
+
+                 ▼ 従業員数
+                 <tr><th>従業員数</th><td>○名</td></tr>
+
+                 ▼ 営業時間
+                 <tr><th>営業時間</th><td>平日 ○:○○〜○○:○○</td></tr>
+
+                 ▼ 取引銀行
+                 <tr><th>取引銀行</th><td>○○銀行 ○○支店</td></tr>
+                 ====================================================================== -->
+          </tbody>
+        </table>
       </div>
     </div>
   </section>
@@ -569,18 +665,18 @@ section{position:relative;padding:clamp(84px,12vw,150px) 0}
 <footer class="foot">
   <div class="wrap foot__in">
     <div>
-      <p class="brand__mark" style="font-family:var(--latin);font-size:22px;letter-spacing:.14em;margin:0">Life <i style="font-style:normal;color:var(--accent)">Change</i> Support</p>
-      <p class="foot__addr">合同会社Life Change Support<br>〒120-0005 東京都足立区綾瀬二丁目31番7号</p>
+      <p class="foot__b">Life <i>Change</i> Support</p>
+      <p class="foot__d">合同会社Life Change Support<br>一般医療機器の販売／管理医療機器の販売・貸与／コンサルティング</p>
     </div>
     <div>
       <ul class="foot__nav">
-        <li><a href="#concept">CONCEPT</a></li>
-        <li><a href="#business">BUSINESS</a></li>
-        <li><a href="#devices">DEVICES</a></li>
-        <li><a href="#approach">APPROACH</a></li>
-        <li><a href="#company">COMPANY</a></li>
+        <li><a href="#doing">事業内容</a></li>
+        <li><a href="#devices">取扱品目</a></li>
+        <li><a href="#flow">供給の流れ</a></li>
+        <li><a href="#people">働く場所として</a></li>
+        <li><a href="#company">会社概要</a></li>
       </ul>
-      <p class="foot__copy" style="margin-top:20px">© <span id="yr"></span> Life Change Support LLC.</p>
+      <p class="foot__c">© <span id="yr"></span> Life Change Support LLC.</p>
     </div>
   </div>
 </footer>
@@ -589,8 +685,6 @@ section{position:relative;padding:clamp(84px,12vw,150px) 0}
 (function(){
   "use strict";
   var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
-  /* ---- 年号 ---- */
   document.getElementById("yr").textContent = new Date().getFullYear();
 
   /* ---- ナビ ---- */
@@ -611,23 +705,38 @@ section{position:relative;padding:clamp(84px,12vw,150px) 0}
     }
   });
 
-  /* ---- スクロールレール ---- */
-  var ids = ["concept","business","devices","approach","message","company"],
-      fill = document.getElementById("railFill"),
-      dots = document.getElementById("railDots"),
-      dotEls = [];
+  /* ---- 目盛レール ---- */
+  var sections = [
+    {id:"doing",   label:"事業内容"},
+    {id:"devices", label:"取扱品目"},
+    {id:"flow",    label:"供給の流れ"},
+    {id:"class",   label:"機器の区分"},
+    {id:"people",  label:"働く場所"},
+    {id:"company", label:"会社概要"}
+  ];
+  var rail = document.getElementById("rail"),
+      railFill = document.getElementById("railFill"),
+      labels = [];
 
-  ids.forEach(function(id){
-    var d = document.createElement("span");
-    d.className = "rail__dot";
-    dots.appendChild(d);
-    dotEls.push({el:d, id:id});
+  for(var i=0;i<=20;i++){
+    var tk = document.createElement("span");
+    tk.className = "rail__tick";
+    tk.style.top = (i*5) + "vh";
+    tk.style.width = (i % 4 === 0) ? "9px" : "5px";
+    rail.appendChild(tk);
+  }
+  sections.forEach(function(s){
+    var el = document.createElement("span");
+    el.className = "rail__label";
+    el.textContent = s.label;
+    rail.appendChild(el);
+    labels.push({el:el, id:s.id});
   });
 
-  function placeDots(){
+  function placeLabels(){
     var docH = document.documentElement.scrollHeight - window.innerHeight;
     if(docH <= 0) return;
-    dotEls.forEach(function(o){
+    labels.forEach(function(o){
       var sec = document.getElementById(o.id);
       if(!sec) return;
       var p = Math.min(1, Math.max(0, sec.offsetTop / docH));
@@ -643,126 +752,82 @@ section{position:relative;padding:clamp(84px,12vw,150px) 0}
       var y = window.scrollY || window.pageYOffset;
       var docH = document.documentElement.scrollHeight - window.innerHeight;
       var p = docH > 0 ? y / docH : 0;
-      fill.style.height = (p * 100) + "vh";
-      nav.setAttribute("data-solid", y > 80 ? "1" : "0");
-      dotEls.forEach(function(o){
+      railFill.style.height = (p * 100) + "vh";
+      nav.setAttribute("data-solid", y > 70 ? "1" : "0");
+      labels.forEach(function(o){
         var sec = document.getElementById(o.id);
         if(!sec) return;
         var top = sec.getBoundingClientRect().top;
-        o.el.setAttribute("data-on", top < window.innerHeight * 0.55 ? "1" : "0");
+        o.el.setAttribute("data-on", top < window.innerHeight * 0.5 ? "1" : "0");
       });
-      braidProgress();
+      flowProgress();
       ticking = false;
     });
   }
   window.addEventListener("scroll", onScroll, {passive:true});
-  window.addEventListener("resize", function(){ placeDots(); sizeCanvas(); }, {passive:true});
+  window.addEventListener("resize", placeLabels, {passive:true});
 
   /* ---- リビール ---- */
-  var rvs = document.querySelectorAll(".rv, .biz__item");
+  var rvs = document.querySelectorAll(".rv");
   if("IntersectionObserver" in window && !reduce){
     var io = new IntersectionObserver(function(entries){
       entries.forEach(function(en){
         if(en.isIntersecting){ en.target.classList.add("in"); io.unobserve(en.target); }
       });
-    }, {threshold:0.14, rootMargin:"0px 0px -8% 0px"});
+    }, {threshold:0.12, rootMargin:"0px 0px -8% 0px"});
     rvs.forEach(function(el){ io.observe(el); });
   }else{
     rvs.forEach(function(el){ el.classList.add("in"); });
   }
 
-  /* ---- 綾（braid）：スクロール連動で二筋が編み上がる ---- */
-  var th1 = document.getElementById("th1"),
-      th2 = document.getElementById("th2"),
-      braid = document.getElementById("braid"),
-      nodeEls = document.querySelectorAll("#nodes .node"),
-      len1 = th1.getTotalLength(),
-      len2 = th2.getTotalLength();
+  /* ---- HERO：取扱カテゴリのティッカー ---- */
+  var words = ["血圧計","体温計","パルスオキシメータ","在宅療養向け機器","衛生・処置用品","貸与対応の機器"],
+      tick = document.getElementById("tick"),
+      wi = 0;
+  if(!reduce){
+    setInterval(function(){
+      if(document.hidden) return;
+      tick.setAttribute("data-out","1");
+      setTimeout(function(){
+        wi = (wi + 1) % words.length;
+        tick.textContent = words[wi];
+        tick.setAttribute("data-out","0");
+      }, 450);
+    }, 2600);
+  }
 
-  [ [th1,len1], [th2,len2] ].forEach(function(pair){
-    pair[0].style.strokeDasharray = pair[1];
-    pair[0].style.strokeDashoffset = reduce ? 0 : pair[1];
-  });
+  /* ---- 供給ライン：スクロール連動 ---- */
+  var prog = document.getElementById("flowProg"),
+      flowsvg = document.getElementById("flowsvg"),
+      stations = document.querySelectorAll("#flowsvg .station"),
+      plen = prog.getTotalLength();
 
-  function braidProgress(){
-    if(reduce) return;
-    var r = braid.getBoundingClientRect();
-    var vh = window.innerHeight;
-    var p = (vh - r.top) / (vh * 0.85);
-    p = Math.min(1, Math.max(0, p));
-    th1.style.strokeDashoffset = len1 * (1 - p);
-    th2.style.strokeDashoffset = len2 * (1 - p);
-    nodeEls.forEach(function(n, i){
-      var trigger = 0.28 + i * 0.24;
-      n.classList.toggle("node-on", p > trigger);
+  prog.style.strokeDasharray = plen;
+  prog.style.strokeDashoffset = reduce ? 0 : plen;
+  if(reduce){
+    stations.forEach(function(g){
+      g.querySelector(".st").classList.add("on");
+      g.querySelector(".glyph").classList.add("g-on");
     });
   }
 
-  /* ---- HERO：綾なす流れ（canvas） ---- */
-  var cv = document.getElementById("weave"),
-      ctx = cv.getContext("2d"),
-      W = 0, H = 0, DPR = 1, t = 0, raf = null;
-
-  function sizeCanvas(){
-    DPR = Math.min(window.devicePixelRatio || 1, 2);
-    W = cv.clientWidth; H = cv.clientHeight;
-    cv.width = Math.floor(W * DPR);
-    cv.height = Math.floor(H * DPR);
-    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
-    if(reduce) draw(0);
+  function flowProgress(){
+    if(reduce) return;
+    var r = flowsvg.getBoundingClientRect(),
+        vh = window.innerHeight,
+        p = (vh - r.top) / (vh * 0.8);
+    p = Math.min(1, Math.max(0, p));
+    prog.style.strokeDashoffset = plen * (1 - p);
+    stations.forEach(function(g, i){
+      var on = p > (0.1 + i * 0.185);
+      g.querySelector(".st").classList.toggle("on", on);
+      g.querySelector(".glyph").classList.toggle("g-on", on);
+    });
   }
 
-  var THREADS = 16;
-  function draw(time){
-    ctx.clearRect(0,0,W,H);
-
-    // 背景の深い水
-    var g = ctx.createLinearGradient(0,0,0,H);
-    g.addColorStop(0,"#0a1a24");
-    g.addColorStop(1,"#050e14");
-    ctx.fillStyle = g;
-    ctx.fillRect(0,0,W,H);
-
-    for(var i=0;i<THREADS;i++){
-      var f = i / (THREADS - 1);
-      var baseY = H * (0.16 + f * 0.72);
-      var amp = 16 + Math.sin(i * 1.7) * 12 + f * 26;
-      var speed = 0.00022 + i * 0.000018;
-      var wl = 340 + i * 26;
-
-      ctx.beginPath();
-      for(var x=-40; x<=W+40; x+=8){
-        var y = baseY
-          + Math.sin((x / wl) + time * speed * 1000 + i) * amp
-          + Math.sin((x / (wl * 0.42)) - time * speed * 620 + i * 2.1) * (amp * 0.32);
-        if(x === -40) ctx.moveTo(x,y); else ctx.lineTo(x,y);
-      }
-      var mix = (i % 3 === 0) ? "199,154,84" : "79,193,176";
-      var alpha = 0.08 + 0.16 * Math.abs(Math.sin(i * 0.9 + time * 0.0004));
-      ctx.strokeStyle = "rgba(" + mix + "," + alpha.toFixed(3) + ")";
-      ctx.lineWidth = (i % 4 === 0) ? 1.3 : 0.7;
-      ctx.stroke();
-    }
-  }
-
-  function loop(now){
-    t = now || 0;
-    draw(t);
-    raf = requestAnimationFrame(loop);
-  }
-
-  sizeCanvas();
-  if(reduce){ draw(0); } else { raf = requestAnimationFrame(loop); }
-
-  // タブが非表示のときは止める
-  document.addEventListener("visibilitychange", function(){
-    if(document.hidden){ if(raf){ cancelAnimationFrame(raf); raf = null; } }
-    else if(!reduce && !raf){ raf = requestAnimationFrame(loop); }
-  });
-
-  placeDots();
+  placeLabels();
   onScroll();
-  window.addEventListener("load", function(){ placeDots(); onScroll(); });
+  window.addEventListener("load", function(){ placeLabels(); onScroll(); });
 })();
 </script>
 </body>
